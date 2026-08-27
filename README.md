@@ -10,3 +10,6 @@ See [Kaleidoscope Eyes](learn.adafruit.com/kaleidoscope-eyes-neopixel-led-goggle
 ## Phase 2
 Add a second pair of ESP32-C3 goggles that communicates wirelessly with the first. The original goggles act as the master, controlling the colors, patterns, and timing of any subsequent goggles. The second pair follows as the synchronized receiver.
 
+## Phase 3
+Phase 3 turns the synchronized lights into a visual communication system. Specific sequences of colors, flashes, and movement encode predefined messages that can be sent from one pair of goggles and displayed by the other.
+
