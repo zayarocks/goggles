@@ -8,6 +8,5 @@ See [Kaleidoscope Eyes](learn.adafruit.com/kaleidoscope-eyes-neopixel-led-goggle
 *Warning:* This guide is from 2013. Some components, like the trinket, are no longer readily available. 
 
 ## Phase 2
-Create a second pair of goggles that can sync with the first pair. 
-*Q:* Which pair is "master" and which is the "slave"?
+Add a second pair of ESP32-C3 goggles that communicates wirelessly with the first. The original goggles act as the master, controlling the colors, patterns, and timing of any subsequent goggles. The second pair follows as the synchronized receiver.
 
