@@ -1,7 +1,7 @@
 # Secret Agent Goggle
 
 ## Overview
-This project is based on Adafruit’s [Kaleidoscope Eyes](learn.adafruit.com/kaleidoscope-eyes-neopixel-led-goggles-trinket-gemma) tutorial on Adafruit. Because the tutorial was originally published in 2013, some of its hardware, wiring instructions, and code are now outdated. This version modernizes the project using two WS2812 LED rings and an ESP32-C3 SuperMini.
+This project is based on Adafruit’s [Kaleidoscope Eyes](learn.adafruit.com/kaleidoscope-eyes-neopixel-led-goggles-trinket-gemma) tutorial. Because the tutorial was originally published in 2013, some of its hardware, wiring instructions, and code are now outdated. This version modernizes the project using two WS2812 LED rings and an ESP32-C3 SuperMini.
 
 ### Phase 1
 Control two 12-LED WS2812 rings using an ESP32-C3 SuperMini. Rings display a synchronized rotating rainbow that smoothly fades in and out, with brightness limited for USB-powered testing.
