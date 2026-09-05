@@ -6,7 +6,7 @@ This project is based on Adafruit’s [Kaleidoscope Eyes](learn.adafruit.com/kal
 ![Demo](kaleidoscope_eyes.gif)
 
 
-### Phase 1 *COMPLETE*
+### Phase 1
 Control two 12-LED WS2812 rings using an ESP32-C3 SuperMini. Rings display a synchronized rotating rainbow that smoothly fades in and out, with brightness limited for USB-powered testing.
 
 
