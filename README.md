@@ -35,6 +35,7 @@ Control two 12-LED WS2812 rings using an ESP32-C3 SuperMini. Rings display a syn
 Add a second pair of ESP32-C3 goggles that communicates wirelessly with the first. The original goggles act as the master, controlling the colors, patterns, and timing of any subsequent goggles. The second pair follows as the synchronized receiver.
 
 __Received Signal Strength Indicator__
+
 Measures how "loud" the incoming packets are, in dBm. It is always negative. The closer it is to 0, the "louder" it is.
 
 
