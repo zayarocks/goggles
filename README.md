@@ -4,13 +4,14 @@
 This project is based on Adafruit’s [Kaleidoscope Eyes](learn.adafruit.com/kaleidoscope-eyes-neopixel-led-goggles-trinket-gemma) tutorial. Because the tutorial was originally published in 2013, some of its hardware, wiring instructions, and code are now outdated. 
 
 
+![Demo](kaleidoscope_eyes.gif)
+
+
 ## Hardware 
 This version modernizes the project using two WS2812 LED rings and an ESP32-C3 SuperMini for each pair of goggles.
 
 
 ## Development Phases
-
-![Demo](kaleidoscope_eyes.gif)
 
 
 ### Phase 1
