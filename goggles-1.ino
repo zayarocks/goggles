@@ -7,8 +7,8 @@
 #define NUMPIXELS  24
 
 // ---- change these two on the second pair ----
-#define MY_ID      1              
-const char* AP_SSID = "goggles-1";
+#define MY_ID      1             
+const char* AP_SSID = "goggles-3";      
 
 const char* AP_PASS = "lightsup123";
 #define AP_CHANNEL 1
@@ -176,9 +176,9 @@ void alertFlash() {
   }
   px.show();
 
-  if (++alertPhase >= 6) {
+  if (++alertPhase >= 6) {          // 3 on, 3 off
     alerting = false;
-    setPattern(cur);
+    px.setBrightness(bright);       // undo nothing; just restore
   }
 }
 
@@ -249,11 +249,16 @@ const char TAIL[] PROGMEM = R"HTML(
 )HTML";
 
 void handleRoot() {
-  String h = FPSTR(HEAD);
-  for (uint8_t i = 0; i < NUM_PATTERNS; i++)
-    h += "<button onclick=\"m(" + String(i) + ")\">" + patterns[i].name + "</button>";
-  h += FPSTR(TAIL);
-  server.send(200, "text/html", h);
+  server.setContentLength(CONTENT_LENGTH_UNKNOWN);
+  server.send_P(200, "text/html", HEAD);
+
+  for (uint8_t i = 0; i < NUM_PATTERNS; i++) {
+    String b = "<button onclick=\"m(" + String(i) + ")\">" + patterns[i].name + "</button>";
+    server.sendContent(b);
+  }
+
+  server.sendContent_P(TAIL);
+  server.sendContent("");
 }
 
 // ---- setup / loop -----------------------------------------------
