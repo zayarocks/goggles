@@ -6,9 +6,8 @@
 #define LED_PIN    4
 #define NUMPIXELS  24
 
-// ---- change these two on the second pair ----
-#define MY_ID      2              // pair 2 gets 2
-const char* AP_SSID = "goggles-2";        // pair 2 gets "goggles-2"
+#define MY_ID      2    
+const char* AP_SSID = "goggles-2";      
 
 const char* AP_PASS = "lightsup123";
 #define AP_CHANNEL 1

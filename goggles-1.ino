@@ -8,7 +8,7 @@
 
 // ---- change these two on the second pair ----
 #define MY_ID      1             
-const char* AP_SSID = "goggles-3";      
+const char* AP_SSID = "goggles-1";      
 
 const char* AP_PASS = "lightsup123";
 #define AP_CHANNEL 1
