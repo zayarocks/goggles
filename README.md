@@ -7,7 +7,7 @@ This project is based on Adafruit’s [Kaleidoscope Eyes](learn.adafruit.com/kal
 
 
 ## Hardware
-ESP32-C3 dev board — one per pair. Native USB, and the silkscreen prints real GPIO numbers (no NodeMCU D-label translation)
+ESP32-C3 dev board — one per pair.
 2x 12-pixel NeoPixel rings — WS2812B, wired in series, 24 pixels total
 5V power — USB pack or LiPo. Not the 3V3 pin
 
