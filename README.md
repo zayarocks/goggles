@@ -28,7 +28,3 @@ Optional but recommended: a 300–500Ω resistor in the data line, and a 1000µF
 capacitor across the power rails at the first pixel.
 
 
-
-### Phase 3
-Phase 3 turns the synchronized lights into a visual communication system. Specific sequences of colors, flashes, and movement encode predefined messages that can be sent from one pair of goggles and displayed by the other.
-
